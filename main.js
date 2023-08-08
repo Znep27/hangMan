@@ -20,7 +20,7 @@ const wordBank = ['FINICKY', 'ENCOURAGE', 'DANGEROUS', 'UNABLE', 'MUNDANE', 'SAT
     'ERROR', 'HELLO', 'MOUNTAINOUS', 'TACKY', 'GHOST', 'OBTAINABLE', 'SNIFF', 'LUNCHROOM', 'CHARMING', 'WHIRL', 'GREEDY',
     'SYSTEM', 'WOUND', 'ARRANGE', 'OVERCONFIDENT', 'ABANDONED', 'HUNGRY', 'OFFBEAT', 'AWARE', 'NEEDLESS', 'CREATURE', 
     'HANDY', 'SQUASH', 'TRADE', 'EMINENT', 'DIVERGENT', 'SPELL', 'ORGANIC']
-const word = wordBank[Math.round(Math.random() * 100)]
+const word = wordBank[Math.floor(Math.random() * 100)]
 const wordArr = word.split('')
 let dashArr = []
 let chances = 7
